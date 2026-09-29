@@ -3,9 +3,10 @@ name: GitHub Auto Commit
 on:
   schedule:
     # Auto-generated schedules (UTC) representing active hours window
-    - cron: '32 6 * * *'
-    - cron: '49 14 * * *'
-    - cron: '15 22 * * *'
+    - cron: '32 3 * * *'
+    - cron: '49 9 * * *'
+    - cron: '6 15 * * *'
+    - cron: '15 21 * * *'
   workflow_dispatch: # Allows manual trigger from Actions UI
 
 jobs:
